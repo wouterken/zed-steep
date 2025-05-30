@@ -1,0 +1,16 @@
+id = "ruby-steep"
+name = "Steep Ruby LSP Extension"
+version = "0.1.0"
+description = "Integrates the Steep Ruby typechecker (LSP) into Zed"
+repository = "https://github.com/wouterken/zed-steep"
+authors = ["Wouter Coppieters <wc@pico.net.nz>"]
+schema_version = 1
+
+[language_servers.steep]
+name = "Steep Ruby Type Checker"
+languages = ["Ruby"]
+primary = false
+
+[grammars.ruby]
+repository = "https://github.com/tree-sitter/tree-sitter-ruby"
+rev = "71bd32fb7607035768799732addba884a37a6210"
