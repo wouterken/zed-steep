@@ -1,4 +1,4 @@
-id = "ruby-steep"
+id = "steep"
 name = "Steep Ruby LSP Extension"
 version = "0.1.0"
 description = "Integrates the Steep Ruby typechecker (LSP) into Zed"
